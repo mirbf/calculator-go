@@ -1,0 +1,75 @@
+# 编译后的二进制文件
+calculator
+calculator.exe
+calculator-*
+
+# 构建目录
+build/
+dist/
+
+# 测试覆盖率文件
+coverage.out
+coverage.html
+*.cover
+
+# Go 工作空间文件
+go.work
+go.work.sum
+
+# 依赖目录
+vendor/
+
+# IDE 和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows 系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux 系统文件
+*~
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# 用户配置和数据文件（开发时）
+.calculator-go/
+config.json
+history.json
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 调试文件
+debug
+__debug_bin
+
+# 性能分析文件
+*.prof
+cpu.prof
+mem.prof
+
+# Air 实时重载工具的临时文件
+tmp/
+
+# 打包文件
+*.tar.gz
+*.zip
+*.dmg
+*.pkg
+*.deb
+*.rpm
